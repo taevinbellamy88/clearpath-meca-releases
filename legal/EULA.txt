@@ -1,0 +1,175 @@
+CLEARPATH MECA END-USER LICENCE AGREEMENT
+Version 1, effective on the date ClearPath Meca 1.0.0 is first released
+
+This agreement is between you and ClearPath Innovative Solutions LLC. It covers the ClearPath Meca
+software. Please read it before you install or use the Software.
+
+0. SUMMARY
+
+   This is a short summary in plain English. The full terms below govern; the summary does not
+   change them.
+
+   - You may try ClearPath Meca for 7 days. After the trial you need a purchased Key, and with a
+     Key you may use it on up to 3 PCs you own or control.
+   - Camera images are processed on your PC and never uploaded. Hand tracking uses Google
+     MediaPipe, which sends Google usage and performance metrics (not your images).
+   - ClearPath Meca is not a medical or assistive device.
+
+1. WHO WE ARE AND HOW YOU ACCEPT
+
+ClearPath Meca is made and sold by ClearPath Innovative Solutions LLC, doing business as ClearPath
+AI ("we", "us", "our"). You can contact us through the contact form at
+https://nightfallcity.cpengine.store/contact.
+
+You accept this agreement by ticking the box that says you agree, in the installer or on the first
+run of the Software. If you do not agree, do not install or use the Software.
+
+You must be 18 or older to accept this agreement. If you are younger, a parent or guardian must
+accept it for you.
+
+2. DEFINITIONS
+
+"Software" means ClearPath Meca, including its installer, files, documentation and Updates.
+"Key" means an activation key for ClearPath Meca bought from the Store.
+"Trial" means the 7-day trial described in section 4.
+"Updates" means fixes, new versions and other changes to the Software that we provide.
+"Add-ons" means optional extra features or content for the Software that we may offer.
+"Device" means a Windows PC.
+"Store" means our online store at https://nightfallcity.cpengine.store/meca, where Keys are sold.
+
+3. LICENCE
+
+Under this agreement we give you a personal, non-exclusive, non-transferable licence to install and
+use the Software, during the Trial or with a valid Key, on up to 3 Devices that you own or control.
+The licence is revocable if you breach this agreement.
+
+You may use the Software for your own use, including at work. You may not resell, rent or lend the
+Software or a Key, or offer the Software to others as a service. We keep every right that this
+agreement does not expressly give you.
+
+4. TRIAL
+
+The Trial lasts 7 days from the first time you run the Software. There is one Trial per person.
+During the Trial the Software has the same features as with a paid Key. When the Trial ends,
+gesture control turns off until you enter a Key; your settings are kept. You must not reset,
+extend or otherwise work around the Trial.
+
+5. KEYS
+
+A Key is for the person who bought it only. Do not share, publish or sell your Key. The Software
+checks Keys offline, on your Device. We may revoke a Key after a refund, a chargeback, fraud or a
+breach of this agreement, and the revocation reaches the Software through signed Updates.
+
+6. PURCHASES AND REFUNDS
+
+Keys are sold through the Store, and payments are handled by the Store's payment provider, Stripe.
+You may ask for a voluntary refund within 7 days of purchase. When a purchase is refunded, its Key
+is revoked. This does not affect your statutory rights.
+
+7. UPDATES
+
+The Software checks for signed Updates and asks you before it installs one. Some Updates may be
+required to keep using the Software. Updates may change or remove features. Updates are covered by
+this agreement unless they come with new terms.
+
+8. RESTRICTIONS
+
+You must not:
+(a) reverse engineer, decompile or disassemble the Software, except to the extent the law (or
+    section 11) allows it;
+(b) circumvent, disable or interfere with the Trial, the Key checks or the update checks;
+(c) remove or change any copyright, licence or other notice in the Software;
+(d) use the Software to watch, record or track other people;
+(e) use the Software for anything unlawful.
+Export control and sanctions laws apply to the Software, and you must comply with them.
+
+9. YOUR CAMERA AND SURROUNDINGS
+
+You choose which camera the Software uses and what is in its view. The Software does not record or
+upload camera images. You are responsible for other people who are in view of the camera and for
+following local rules about the use of cameras.
+
+10. PRIVACY
+
+Our Privacy Policy (legal/PRIVACY.txt, installed with the Software) explains the data the Software
+handles. Hand tracking uses Google MediaPipe, which sends Google usage and performance metrics, and
+the Software can't turn this off. Those metrics are a condition of using the Software. You consent
+to them on the first run of the Software; if you decline, the Software quits.
+
+11. THIRD-PARTY COMPONENTS
+
+The Software includes third-party components. They are listed, with their licences, in
+THIRD-PARTY-LICENSES.txt, which is installed with the Software. Nothing in this agreement limits
+the rights those licences give you.
+
+pystray is licensed under the GNU Lesser General Public License version 3.0. It is installed as
+replaceable source files in _internal\pystray\. You may replace those files with a modified version
+of pystray, and you may reverse-engineer the Software to the extent needed to debug such
+modifications.
+
+12. MICROSOFT COMPONENTS
+
+The Software includes Microsoft redistributable code (the Microsoft Visual C++ runtime). You may
+use that code only as part of the Software. Microsoft and its suppliers give you no warranty for it
+and accept no liability to you for it. These terms protect that code at least as much as
+Microsoft's own terms require.
+
+13. NOT A MEDICAL, ASSISTIVE OR SAFETY DEVICE
+
+The Software is not designed, tested or certified for medical, therapeutic or assistive use. Do not
+use it to control machinery, vehicles or anything else where a wrong or missed gesture could cause
+harm.
+
+14. GAMES AND ANTI-CHEAT
+
+Some games and anti-cheat systems treat synthetic input, such as the input the Software sends, as
+automation, and may restrict or ban accounts. You are responsible for following the terms of each
+game or service you use with the Software. We are not liable for any such action a game or service
+takes.
+
+15. OWNERSHIP AND FEEDBACK
+
+We own the Software and the ClearPath Meca name and logo. You own your settings. If you send us
+feedback, we may use it without any obligation to you.
+
+16. ADD-ONS
+
+Add-ons, if offered, are sold separately and may come with their own terms.
+
+17. NO WARRANTY
+
+To the extent the law allows, the Software is provided "as is" and "as available", without
+warranties of any kind. Consumer rights that the law does not allow us to exclude are kept.
+
+18. LIMITATION OF LIABILITY
+
+To the extent the law allows, we are not liable for any indirect or consequential damages. Our
+total liability to you for all claims about the Software is limited to the greater of what you
+paid us for it in the 12 months before the claim, or US$50. These limits do not apply where the
+law does not allow them.
+
+19. TERMINATION
+
+This agreement ends automatically if you breach it. When it ends, you must stop using the Software
+and uninstall it. Sections 8 and 11 to 21 survive the end of this agreement.
+
+20. GOVERNING LAW
+
+This agreement is governed by the laws of the State in which ClearPath Innovative Solutions LLC is
+organized, and disputes about it go to the courts of that State. This does not limit any mandatory
+consumer protection given to you by the law where you live.
+
+21. GENERAL
+
+Changes. We may publish new versions of this agreement. A new version applies to Updates released
+after it. Updates install without showing the installer's licence page, so the first time you run
+an Update that brings a new version, the Software shows it to you and asks you to accept it.
+Entire agreement. This agreement is the entire agreement between you and us about the Software.
+Severability. If any part of this agreement cannot be enforced, the rest stays in effect.
+No waiver. If we do not enforce a term, we do not give up the right to enforce it later.
+Assignment. We may transfer this agreement to someone else, for example if our business is sold.
+You may not transfer it (see section 3).
+Contact. Questions about this agreement go to the contact form at
+https://nightfallcity.cpengine.store/contact.
+
+(c) 2026 ClearPath Innovative Solutions LLC. All rights reserved.

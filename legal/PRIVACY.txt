@@ -1,0 +1,110 @@
+CLEARPATH MECA PRIVACY POLICY
+
+1. Who We Are
+
+ClearPath Meca ("Meca") is made and sold by ClearPath Innovative Solutions LLC, doing business as
+ClearPath AI ("we", "us"). You can reach us through the contact form at
+https://nightfallcity.cpengine.store/contact.
+
+Effective on the date ClearPath Meca 1.0.0 is first released.
+
+This policy explains what Meca does with data on your PC, what leaves your PC and when, and what we
+receive when you buy a key.
+
+2. In Short
+
+Camera images are processed on your PC and never uploaded. Hand tracking uses Google MediaPipe,
+which sends Google usage and performance metrics (not your images); Meca can't turn this off. After
+you consent on first run, Meca also asks GitHub for signed updates. Activation keys are checked
+offline, on your PC.
+
+3. Camera Images
+
+Meca reads frames from the camera you choose and processes them in memory to find the positions of
+your hand landmarks (points such as fingertips and knuckles). Each frame is then discarded. Frames
+are not saved and not uploaded. This edition of Meca has no recording feature. Meca does not build
+or keep a template of your hand.
+
+4. Google MediaPipe Usage Metrics
+
+Meca's hand tracking uses Google MediaPipe. The MediaPipe library sends Google usage and
+performance metrics, for example library and operating system details and timing information, to
+play.googleapis.com. These metrics do not include your camera images. Meca cannot turn this off.
+
+Because of this, Meca asks for your consent on first run, before it starts hand tracking. If you
+decline, Meca quits. Google handles these metrics under its own privacy policy:
+https://policies.google.com/privacy.
+
+5. Update Checks
+
+After you consent, Meca asks GitHub for its signed update manifest when it starts, about once a
+day while it runs, and when you choose Check for updates. When you install an update, Meca
+downloads the new installer from the same place. Both requests go to github.com, which serves the files from GitHub's download servers
+on githubusercontent.com (currently release-assets.githubusercontent.com). Like any download, this
+lets GitHub see your IP address and Meca's version, which Meca sends as its User-Agent
+(ClearPathMeca/<version>, for example ClearPathMeca/1.0.0). Meca makes no update check before you
+consent. GitHub handles this under its own privacy statement:
+https://docs.github.com/site-policy/privacy-policies.
+
+6. Activation Keys
+
+Activation keys are checked offline, on your PC. The file license.txt in Meca's data folder holds
+your key, and the key contains the email address you bought it with. When we refund a purchase, we
+revoke its key through the signed update manifest. That manifest lists only fingerprints of revoked
+keys, never the keys themselves or email addresses.
+
+7. Data on Your PC
+
+Meca keeps its data in the folder %LOCALAPPDATA%\ClearPath\Meca:
+- meca.toml: your settings;
+- license.txt: your activation key, if you entered one;
+- state.json: your consent, the trial dates and the update check state;
+- logs\: Meca's log files (see section 8);
+- updates\: the most recent downloaded update installer; older ones are deleted when a newer one
+  is downloaded.
+
+The registry key HKCU\Software\ClearPath\Meca holds FirstRun and LastSeen, the start of your trial
+and the last time Meca saw the clock. They are kept after you uninstall Meca, so that reinstalling
+does not restart the trial. The same key holds InstallDir, Version, DesktopShortcut and Autostart,
+which the installer writes.
+
+To delete everything: uninstall Meca with "Also delete my Meca settings, licence and logs" ticked,
+then run this command in a Command Prompt:
+
+    reg delete "HKCU\Software\ClearPath\Meca" /f
+
+8. Logs
+
+Meca's logs are kept on your PC only, and they are rotated so they stay at a few megabytes. Meca
+sends nothing from them automatically. If you ask us for help, you choose whether to attach a log
+to your support request.
+
+9. Purchases
+
+Keys are sold through our store at https://nightfallcity.cpengine.store (the "Store"). Payments are
+handled by the Store's payment processor, Stripe, which collects your payment details, billing
+address and tax information under its own privacy policy (https://stripe.com/privacy). We never see
+your card details. From the Store we receive your name, email address, country, what you bought,
+the price, tax and the order or refund status.
+
+We use that information to create and email your activation key, to restore it if you lose it, to
+answer support requests, to handle refunds and chargebacks (a refunded key is revoked, see section
+6) and to keep the records the law requires. The Store keeps your email address, your order and
+your key for these reasons. Your activation key contains the email address you bought with, your
+plan and its dates, so anyone you share the key with can read them; please keep it private.
+
+10. Children
+
+Meca is not directed to children under 13. The end-user licence agreement requires you to be 18 or
+older, or to have a parent or guardian accept it for you.
+
+11. Your Choices and Rights
+
+You can ask to access or delete the personal information we hold about you through the contact
+form at https://nightfallcity.cpengine.store/contact. The data on your PC is under your control: you
+can delete it at any time (section 7).
+
+12. Changes
+
+If this policy changes in a material way, Meca shows the change on the first run of the update
+that brings it and asks for your consent again.
