@@ -108,6 +108,11 @@ camera".
 is ClearPath Meca, then **Run anyway**. Builds that are not yet code-signed show this warning. Only do this for an
 installer you downloaded from the [latest release](https://github.com/taevinbellamy88/clearpath-meca-releases/releases/latest).
 
+**Windows says Smart App Control blocked the installer.** On Windows 11 PCs with Smart App Control turned on,
+Windows runs only apps it already trusts or that are code-signed, and it offers no **Run anyway**. This preview
+isn't code-signed yet, so it can't be installed on those PCs. Code-signed releases will install there normally;
+we suggest waiting for one rather than turning Smart App Control off.
+
 **Windows Security removed ClearPath Meca.** Open Windows Security > Virus & threat protection > Protection history,
 choose the ClearPath Meca item and **Restore** it, then [contact us](https://nightfallcity.cpengine.store/contact) so
 we can report the false positive to Microsoft. Only do this for a file you downloaded from this page.
