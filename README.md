@@ -42,7 +42,7 @@ zoom and switch apps with a gesture.**
 <td><img src=".github/media/gestures/05-fist-zoom.png" width="100%"><br><b>Fist zoom</b><br>Make a fist and hold still, then pull back to zoom in or push forward to zoom out.</td>
 <td><img src=".github/media/gestures/06-two-hand-zoom.png" width="100%"><br><b>Two-hand zoom</b><br>Pinch with both hands, then move them apart or together.</td>
 <td><img src=".github/media/gestures/07-app-switch.png" width="100%"><br><b>Switch apps</b><br>Hold up three fingers and swipe to step through your open windows.</td>
-<td><img src=".github/media/gestures/08-page-flip.png" width="100%"><br><b>Flip pages</b><br>Sweep an open palm right to left for the next page, left to right to go back.</td>
+<td><img src=".github/media/gestures/08-page-flip.png" width="100%"><br><b>Flip pages</b><br>Hold an open palm still, then flick it out and straight back: right to left for next, left to right for previous.</td>
 </tr>
 </table>
 

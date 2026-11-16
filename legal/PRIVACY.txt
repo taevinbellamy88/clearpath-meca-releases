@@ -58,7 +58,12 @@ keys, never the keys themselves or email addresses.
 Meca keeps its data in the folder %LOCALAPPDATA%\ClearPath\Meca:
 - meca.toml: your settings;
 - license.txt: your activation key, if you entered one;
-- state.json: your consent, the trial dates and the update check state;
+- state.json: your consent, the trial dates, the update check state and whether the Meca guide
+  has been shown;
+- status.json: while Meca runs, its format version, whether Meca is paused, locked (and why) or
+  showing its preview, whether it is recording (only developer copies run from source can record),
+  and its process number, which the Meca guide reads; Meca removes it when it quits, or when it
+  next starts if it was closed some other way;
 - logs\: Meca's log files (see section 8);
 - updates\: the most recent downloaded update installer; older ones are deleted when a newer one
   is downloaded.
